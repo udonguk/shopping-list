@@ -1,0 +1,22 @@
+:root {
+  --shoping-list-radia: 10px;
+}
+
+body {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+#shopping-list {
+  display: flex;
+  flex-direction: column;
+  border: solid coral 1px;
+  border-radius: var(--shoping-list-radia);
+  background-color: aquamarine;
+}
+
+#shopping-list header {
+  background-color: yellow;
+  border-top-left-radius: var(--shoping-list-radia);
+  border-top-right-radius: var(--shoping-list-radia);
+}
